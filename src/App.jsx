@@ -24,6 +24,7 @@ import { motion } from "framer-motion";
 import anftLogo from "./assets/anft-logo.png";
 import brandLogo from "./assets/brand-logo-horizontal.png";
 import heroAnftTraining from "./assets/hero-anft-training-bg.jpg";
+import qrCooperationWechat from "./assets/qr-cooperation-wechat.png";
 
 const fadeUp = {
   hidden: { opacity: 1, y: 18 },
@@ -154,7 +155,7 @@ const copy = {
       title: "与心屿星河建立连接",
       text: "无论你是想预约一次自然疗愈体验，还是希望为企业、营地、公园或文旅空间设计长期合作方案，都可以与我们联系。",
       address: "深圳市南山区招商街道水湾B区A1栋",
-      qrMini: "小程序二维码",
+      qrMini: "小程序即将上线，敬请期待",
       qrService: "客服二维码",
       appointment: "预约体验",
       proposal: "获取合作方案"
@@ -577,7 +578,7 @@ export default function App() {
               </li>
               <li>
                 <Phone size={28} />
-                <span>18311312508</span>
+                <span>13380353190</span>
               </li>
             </ul>
           </div>
@@ -586,14 +587,17 @@ export default function App() {
               <div className="qr-action">
                 <div className="qr-placeholder">
                   <Sparkles size={32} />
-                  <span>{t.contact.qrMini}</span>
+                  <span className="qr-status-text">
+                    {t.contact.qrMini.split("，").map((line) => (
+                      <span key={line}>{line}</span>
+                    ))}
+                  </span>
                 </div>
                 <Button showArrow={false}>{t.contact.appointment}</Button>
               </div>
               <div className="qr-action">
-                <div className="qr-placeholder">
-                  <HeartHandshake size={32} />
-                  <span>{t.contact.qrService}</span>
+                <div className="qr-placeholder qr-image-card">
+                  <img src={qrCooperationWechat} alt="获取合作方案微信二维码" />
                 </div>
                 <Button showArrow={false}>{t.contact.proposal}</Button>
               </div>
