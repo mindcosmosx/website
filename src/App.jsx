@@ -26,7 +26,7 @@ import brandLogo from "./assets/brand-logo-horizontal.png";
 import heroAnftTraining from "./assets/hero-anft-training-bg.jpg";
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 26 },
+  hidden: { opacity: 1, y: 18 },
   show: { opacity: 1, y: 0, transition: { duration: 0.72, ease: [0.22, 1, 0.36, 1] } }
 };
 
@@ -174,52 +174,52 @@ const copy = {
     hero: {
       title: "Mind Cosmos X",
       label: "NATURAL HEALING & RECOVERY",
-      copy: "Grounded in ANFT forest bathing, psychological support, and nature-connection practices, we offer gentle, professional, and sustainable healing experiences for individuals, families, and organizations.",
+      copy: "Grounded in ANFT Forest Therapy, supportive facilitation, and nature-connection practices, we guide gentle, professional, and sustainable experiences for individuals, families, and organizations.",
       primary: "Book an Experience",
       secondary: "Partnerships"
     },
     anft: {
-      title: "ANFT and Relational Forest Therapy",
+      title: "ANFT and Relational Forest Therapy™",
       eyebrow: "METHOD",
       logoLabel: "WHAT IS ANFT",
       logoTitle: "ANFT",
-      logoText: "ANFT Relational Forest Therapy is an internationally recognized forest therapy system, and one of the methodological foundations of Mind Cosmos X.",
+      logoText: "ANFT's Relational Forest Therapy™ is an internationally recognized approach to Forest Therapy, and one of the methodological foundations of Mind Cosmos X.",
       cardOneLabel: "WHAT IS ANFT",
       cardOneTitle: "ANFT",
       cardTwoLabel: "RELATIONAL FOREST THERAPY",
-      cardTwoTitle: "Relational Forest Therapy"
+      cardTwoTitle: "Relational Forest Therapy™"
     },
     anftIntroPoints: [
-      ["Relational Forest Therapy", "Relational Forest Therapy is a standardized forest therapy system created by ANFT. It emphasizes connection between people and nature, self, and one another.", Leaf],
-      ["International System", "ANFT stands for the Association of Nature and Forest Therapy Guides and Programs, an authoritative international training system for nature and forest therapy guides.", Globe2],
-      ["A Gentle Entry", "The practice invites participants into nature in a safe, slow, and non-judgmental way, allowing them to first slow down and then sense their surroundings again.", Feather],
-      ["Senses and Sharing", "Through sensory invitations, quiet pauses, and circle sharing, participants rebuild a more subtle relationship with the natural world.", Sparkles]
+      ["Relational Forest Therapy™", "Relational Forest Therapy™ is ANFT's heart-centered approach to Forest Therapy. It emphasizes relationship with self, others, and the More-than-Human World of Nature.", Leaf],
+      ["International Training System", "ANFT stands for the Association of Nature and Forest Therapy Guides and Programs, a global leader in Forest Therapy Guide training and the development of Forest Therapy practice.", Globe2],
+      ["A Gentle Entry", "The practice invites participants into nature in a safe, slow, and non-prescriptive way, allowing each person to slow down and reconnect through direct experience.", Feather],
+      ["Standard Sequence", "ANFT's Standard Sequence, supported by the Way of the Guide and the Language of Invitation, helps participants awaken the senses and enter relationship with nature.", Sparkles]
     ],
     relationalPoints: [
-      ["Not Outdoor Sport", "It is not centered on physical challenge, finishing a route, or checking off scenery. It values each person's lived experience in nature.", Trees],
-      ["Not Counseling", "Guides do not offer diagnosis or fixed answers. They create a safe, respectful space where pauses are allowed.", Heart],
-      ["Relationships Reappear", "In a natural setting, relationships with nature, self, and others can be sensed again in a softer way.", HeartHandshake],
-      ["Personal Rhythm", "Participants may respond to each invitation according to their own body and emotional state, without needing to perform.", Compass],
-      ["Supported by Nature", "A core ANFT idea is that the forest is the therapist; the guide opens the door.", Leaf]
+      ["Not a Hike", "Forest Therapy is not centered on physical challenge, finishing a route, or checking off scenery. The destination is here, not there.", Trees],
+      ["Guides, Not Therapists", "Forest Therapy Guides do not diagnose, treat, or provide fixed answers. They hold a safe, respectful space and offer invitations.", Heart],
+      ["Relationships Reappear", "In a natural setting, relationships with nature, self, and others can be sensed again through presence, curiosity, and reciprocity.", HeartHandshake],
+      ["Personal Rhythm", "Participants may respond to each invitation according to their own body and emotional state, without needing to perform or achieve a prescribed result.", Compass],
+      ["The Forest Is the Therapist", "ANFT's core motto is: the forest is the therapist; the guide opens the doors.", Leaf]
     ],
     relation: {
       title: <>Mind Cosmos X<br />and ANFT</>,
       paragraphs: [
-        "Mind Cosmos X holds the exclusive ANFT Chinese-language training system and certification qualification in China. With ANFT's international standards and global network, we bring Relational Forest Therapy into local natural spaces and diverse partnership settings.",
-        "While respecting the original system, we adapt the work to urban stress recovery, cultural and travel spaces, workplace care, and family needs, offering professional, gentle, and practical nature-based experiences."
+        "Mind Cosmos X holds exclusive authorization for ANFT Chinese-language training and certification in China. With ANFT's international standards and global network, we bring Relational Forest Therapy™ into local natural spaces and diverse partnership settings.",
+        "While respecting the original system, we adapt the work to urban stress recovery, wellness travel spaces, workplace care, and family needs, offering professional, gentle, and practical nature-connection experiences."
       ]
     },
     authorizationPoints: [
-      ["Exclusive Authorization", "Holder of the exclusive ANFT Chinese-language training system and certification qualification in China.", BadgeCheck],
-      ["Standardized Service", "Able to provide internationally standardized nature therapy services adapted to local settings.", BookOpen],
+      ["Exclusive Authorization", "Exclusive authorization for ANFT Chinese-language training and certification in China.", BadgeCheck],
+      ["Standardized Method", "Experiences are grounded in ANFT's Standard Sequence, Way of the Guide, and Language of Invitation.", BookOpen],
       ["Global Network", "Connected to ANFT's global network across 70+ countries and 3,000+ certified guides.", Globe2],
-      ["Local Experience", "Bringing Relational Forest Therapy into urban recovery, cultural travel, and workplace care contexts.", Sprout]
+      ["Local Experience", "Bringing Relational Forest Therapy™ into urban recovery, wellness travel, and workplace care contexts.", Sprout]
     ],
     about: {
       title: <>Beyond the City,<br />Return to Inner Order</>,
       paragraphs: [
-        "Mind Cosmos X focuses on stress recovery, emotional regulation, and nature connection for urban communities. We combine ANFT forest bathing methods, psychological support, and local natural settings to design services for organizations, families, and individuals.",
-        "In these special places, we invite you to briefly set aside your roles, return attention from the mind to the senses, and rediscover inner quiet in the breathing rhythm of the earth."
+        "Mind Cosmos X focuses on stress recovery, emotional regulation, and nature connection for urban communities. We combine ANFT Forest Therapy methods, supportive facilitation, and local natural settings to design services for organizations, families, and individuals.",
+        "In these special places, we invite you to briefly set aside your roles, return attention from the mind to the senses, and rediscover inner quiet in relationship with the living world."
       ]
     },
     keywords: [
@@ -232,17 +232,17 @@ const copy = {
       eyebrow: "SERVICES"
     },
     services: [
-      { icon: Trees, title: "Urban Forest Bathing", text: "Nature-based healing experiences for individuals, held in city parks, forest trails, and quiet natural spaces through slow walking, sensory opening, and gentle sharing." },
+      { icon: Trees, title: "Urban Forest Bathing", text: "Guided nature-connection experiences for individuals, held in city parks, forest trails, and quiet natural spaces through slow walking, sensory invitations, and gentle sharing." },
       { icon: BriefcaseBusiness, title: "Workplace Wellbeing", text: "Programs for employee care, team connection, and stress recovery, helping organizations create warmer and more connected wellbeing experiences." },
-      { icon: UsersRound, title: "Family Nature Experiences", text: "Designed for families, schools, and camps, with nature observation, sensory invitations, and light guidance to support companionship and emotional expression." },
-      { icon: Map, title: "Cultural Travel Partnerships", text: "For parks, scenic areas, hotels, and camps, we provide route design, content co-creation, and development of nature-based experience products." }
+      { icon: UsersRound, title: "Family Nature Experiences", text: "Designed for families, schools, and camps, with nature observation, sensory invitations, and gentle guidance to support companionship and emotional expression." },
+      { icon: Map, title: "Wellness Travel Partnerships", text: "For parks, scenic areas, hotels, and camps, we provide route design, content co-creation, and development of nature-connection experience products." }
     ],
     why: {
       title: <>Why Choose<br />Mind Cosmos X</>,
       text: "We offer more than an outdoor format. We build a bridge between nature and the inner life."
     },
     strengths: [
-      ["Professional Method", "Built on forest bathing, psychological support, and nature-connection methods to form a stable, gentle, and repeatable experience flow."],
+      ["Professional Method", "Built on ANFT Forest Therapy, supportive facilitation, and nature-connection methods to form a stable, gentle, and repeatable experience flow."],
       ["Accessible Entry", "Less about physical challenge and more about rest, sensing, connection, and recovery, suitable for most urban participants."],
       ["Flexible Settings", "Programs can be delivered in city parks, forest camps, workplace campuses, cultural travel sites, and hotel spaces."],
       ["Continuous Refinement", "We value real feedback after each activity and keep improving the flow, content, and service experience."]
@@ -257,7 +257,7 @@ const copy = {
       ["Sensory Invitations", "Connect with nature through sight, sound, touch, and scent."],
       ["Quiet Pause", "Give yourself a period of undisturbed restoration."],
       ["Circle Sharing", "Share experience in a safe and respectful atmosphere."],
-      ["Gentle Closing", "Return to daily life with a sense of calm."]
+      ["Gentle Closing", "Return to daily life with a sense of connection."]
     ],
     galleryHead: {
       title: "Moments in Practice",
@@ -274,10 +274,10 @@ const copy = {
     sceneHead: {
       title: "Designed for These Settings"
     },
-    scenes: ["Employee Care", "Cultural Travel Spaces", "Parks and Camps", "Families"],
+    scenes: ["Employee Care", "Wellness Travel Spaces", "Parks and Camps", "Families"],
     contact: {
       title: "Connect with Mind Cosmos X",
-      text: "Whether you would like to book a nature-based healing experience or develop a long-term program for an organization, camp, park, or cultural travel space, we would be glad to talk.",
+      text: "Whether you would like to book a guided nature-connection experience or develop a long-term program for an organization, camp, park, or wellness travel space, we would be glad to talk.",
       address: "A1, Shuiwan Area B, Zhaoshang Street, Nanshan District, Shenzhen",
       qrMini: "Mini Program QR",
       qrService: "Service QR",
@@ -295,7 +295,7 @@ function Section({ id, className = "", eyebrow, title, subtitle, children, align
         className="site-container"
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.16 }}
+        viewport={{ once: false, amount: 0.16 }}
         variants={stagger}
       >
         {(title || eyebrow) && (
@@ -363,7 +363,7 @@ export default function App() {
   }, [locale]);
 
   return (
-    <main className={`locale-${locale}`}>
+    <main key={locale} className={`locale-${locale}`}>
       <Nav labels={t.nav} locale={locale} onLocaleChange={setLocale} languageLabel={t.languageLabel} />
 
       <header className="hero">
