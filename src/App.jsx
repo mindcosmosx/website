@@ -161,7 +161,7 @@ const copy = {
       qrGuideAlt: "心屿自然向导端小程序二维码",
       qrCooperationAlt: "获取合作方案微信二维码",
       appointment: "预约体验",
-      guidePortal: "向导入口",
+      guidePortal: "向导培训",
       proposal: "获取合作方案"
     },
     footer: "© 2026 心屿星河 XIN YU STAR RIVER. ALL RIGHTS RESERVED."
@@ -288,7 +288,7 @@ const copy = {
       qrGuideAlt: "Mind Cosmos X guide mini program QR code",
       qrCooperationAlt: "Partnership contact WeChat QR code",
       appointment: "Book an Experience",
-      guidePortal: "Guide Portal",
+      guidePortal: "Guide Training",
       proposal: "Partnership Proposal"
     },
     footer: "© 2026 MIND COSMOS X. ALL RIGHTS RESERVED."
