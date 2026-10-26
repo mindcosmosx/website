@@ -942,11 +942,11 @@ main {
 
 .contact-panel {
   display: grid;
-  grid-template-columns: 1fr 0.72fr;
-  gap: 86px;
-  max-width: 1060px;
+  grid-template-columns: minmax(0, 0.78fr) minmax(560px, 1.22fr);
+  gap: 64px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 84px;
+  padding: 76px;
   border: 1px solid rgba(36, 51, 44, 0.08);
   border-radius: 48px;
   background:
@@ -989,8 +989,8 @@ main {
 
 .qr-action-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .qr-action {
@@ -1122,9 +1122,9 @@ footer {
 }
 
 .locale-en .contact-panel {
-  grid-template-columns: 0.9fr 0.86fr;
-  gap: 64px;
-  max-width: 1120px;
+  grid-template-columns: minmax(0, 0.74fr) minmax(600px, 1.26fr);
+  gap: 56px;
+  max-width: 1320px;
 }
 
 .locale-en .journey-step p {
@@ -1140,7 +1140,8 @@ footer {
   .about-grid,
   .anft-relation-grid,
   .why-grid,
-  .contact-panel {
+  .contact-panel,
+  .locale-en .contact-panel {
     grid-template-columns: 1fr;
   }
 
@@ -1542,8 +1543,13 @@ footer {
     gap: 28px;
   }
 
+  .qr-action {
+    width: min(100%, 210px);
+    justify-self: center;
+  }
+
   .qr-placeholder {
-    max-width: 210px;
+    max-width: none;
   }
 
   footer {
@@ -1798,8 +1804,11 @@ footer {
   }
 
   .qr-placeholder {
-    max-width: 190px;
     border-radius: 22px;
+  }
+
+  .qr-action {
+    width: min(100%, 190px);
   }
 
   .locale-en .hero h1 {

@@ -25,6 +25,8 @@ import anftLogo from "./assets/anft-logo.png";
 import brandLogo from "./assets/brand-logo-horizontal.png";
 import heroAnftTraining from "./assets/hero-anft-training-bg.jpg";
 import qrCooperationWechat from "./assets/qr-cooperation-wechat.png";
+import qrMiniGuide from "./assets/qr-mini-guide.png";
+import qrMiniUser from "./assets/qr-mini-user.png";
 
 const fadeUp = {
   hidden: { opacity: 1, y: 18 },
@@ -155,9 +157,11 @@ const copy = {
       title: "与心屿星河建立连接",
       text: "无论你是想预约一次自然疗愈体验，还是希望为企业、营地、公园或文旅空间设计长期合作方案，都可以与我们联系。",
       address: "深圳市南山区招商街道水湾B区A1栋",
-      qrMini: "小程序即将上线，敬请期待",
-      qrService: "客服二维码",
+      qrUserAlt: "心屿自然小程序二维码",
+      qrGuideAlt: "心屿自然向导端小程序二维码",
+      qrCooperationAlt: "获取合作方案微信二维码",
       appointment: "预约体验",
+      guidePortal: "向导入口",
       proposal: "获取合作方案"
     },
     footer: "© 2026 心屿星河 XIN YU STAR RIVER. ALL RIGHTS RESERVED."
@@ -280,9 +284,11 @@ const copy = {
       title: "Connect with Mind Cosmos X",
       text: "Whether you would like to book a guided nature-connection experience or develop a long-term program for an organization, camp, park, or wellness travel space, we would be glad to talk.",
       address: "A1, Shuiwan Area B, Zhaoshang Street, Nanshan District, Shenzhen",
-      qrMini: "Mini Program QR",
-      qrService: "Service QR",
-      appointment: "Book",
+      qrUserAlt: "Mind Cosmos X mini program QR code",
+      qrGuideAlt: "Mind Cosmos X guide mini program QR code",
+      qrCooperationAlt: "Partnership contact WeChat QR code",
+      appointment: "Book an Experience",
+      guidePortal: "Guide Portal",
       proposal: "Partnership Proposal"
     },
     footer: "© 2026 MIND COSMOS X. ALL RIGHTS RESERVED."
@@ -585,19 +591,20 @@ export default function App() {
           <aside>
             <div className="qr-action-list">
               <div className="qr-action">
-                <div className="qr-placeholder">
-                  <Sparkles size={32} />
-                  <span className="qr-status-text">
-                    {t.contact.qrMini.split("，").map((line) => (
-                      <span key={line}>{line}</span>
-                    ))}
-                  </span>
+                <div className="qr-placeholder qr-image-card">
+                  <img src={qrMiniUser} alt={t.contact.qrUserAlt} />
                 </div>
                 <Button showArrow={false}>{t.contact.appointment}</Button>
               </div>
               <div className="qr-action">
                 <div className="qr-placeholder qr-image-card">
-                  <img src={qrCooperationWechat} alt="获取合作方案微信二维码" />
+                  <img src={qrMiniGuide} alt={t.contact.qrGuideAlt} />
+                </div>
+                <Button showArrow={false}>{t.contact.guidePortal}</Button>
+              </div>
+              <div className="qr-action">
+                <div className="qr-placeholder qr-image-card">
+                  <img src={qrCooperationWechat} alt={t.contact.qrCooperationAlt} />
                 </div>
                 <Button showArrow={false}>{t.contact.proposal}</Button>
               </div>
